@@ -48,11 +48,17 @@ Have a callback (errback) handle a promise's resolution (success) or rejection (
 <li>Require: <code>const pkg = require('promise-errback').default</code></li>
 </ul>
 
+<a href="https://deno.land" title="Deno is a secure runtime for JavaScript and TypeScript, it is an alternative for Node.js"><h3>Deno</h3></a>
+
+``` typescript
+import pkg from 'https://unpkg.com/promise-errback@^1.1.0/edition-deno/index.ts'
+```
+
 <a href="https://www.skypack.dev" title="Skypack is a JavaScript Delivery Network for modern web apps"><h3>Skypack</h3></a>
 
 ``` html
 <script type="module">
-    import pkg from '//cdn.skypack.dev/promise-errback@^1.0.0'
+    import pkg from '//cdn.skypack.dev/promise-errback@^1.1.0'
 </script>
 ```
 
@@ -60,7 +66,7 @@ Have a callback (errback) handle a promise's resolution (success) or rejection (
 
 ``` html
 <script type="module">
-    import pkg from '//unpkg.com/promise-errback@^1.0.0'
+    import pkg from '//unpkg.com/promise-errback@^1.1.0'
 </script>
 ```
 
@@ -68,7 +74,7 @@ Have a callback (errback) handle a promise's resolution (success) or rejection (
 
 ``` html
 <script type="module">
-    import pkg from '//dev.jspm.io/promise-errback@1.0.0'
+    import pkg from '//dev.jspm.io/promise-errback@1.1.0'
 </script>
 ```
 
@@ -81,7 +87,8 @@ Have a callback (errback) handle a promise's resolution (success) or rejection (
 <li><code>promise-errback</code> aliases <code>promise-errback/edition-es2022/index.js</code></li>
 <li><code>promise-errback/edition-es2022/index.js</code> is <a href="https://www.typescriptlang.org/" title="TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. ">TypeScript</a> compiled against ES2022 for <a href="https://nodejs.org" title="Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine">Node.js</a> 4 || 6 || 8 || 10 || 12 || 14 || 16 || 18 || 20 || 21 with <a href="https://nodejs.org/dist/latest-v5.x/docs/api/modules.html" title="Node/CJS Modules">Require</a> for modules</li>
 <li><code>promise-errback/edition-es2022-esm/index.js</code> is <a href="https://www.typescriptlang.org/" title="TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. ">TypeScript</a> compiled against ES2022 for <a href="https://nodejs.org" title="Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine">Node.js</a> 12 || 14 || 16 || 18 || 20 || 21 with <a href="https://babeljs.io/docs/learn-es2015/#modules" title="ECMAScript Modules">Import</a> for modules</li>
-<li><code>promise-errback/edition-types/index.d.ts</code> is <a href="https://www.typescriptlang.org/" title="TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. ">TypeScript</a> compiled Types with <a href="https://babeljs.io/docs/learn-es2015/#modules" title="ECMAScript Modules">Import</a> for modules</li></ul>
+<li><code>promise-errback/edition-types/index.d.ts</code> is <a href="https://www.typescriptlang.org/" title="TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. ">TypeScript</a> compiled Types with <a href="https://babeljs.io/docs/learn-es2015/#modules" title="ECMAScript Modules">Import</a> for modules</li>
+<li><code>promise-errback/edition-deno/index.ts</code> is <a href="https://www.typescriptlang.org/" title="TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. ">TypeScript</a> source code made to be compatible with <a href="https://deno.land" title="Deno is a secure runtime for JavaScript and TypeScript, it is an alternative to Node.js">Deno</a></li></ul>
 
 <!-- /INSTALL -->
 
@@ -112,7 +119,7 @@ Have a callback (errback) handle a promise's resolution (success) or rejection (
 
 These amazing people are maintaining this project:
 
-<ul><li><a href="https://github.com/balupton">Benjamin Lupton</a> — <a href="https://github.com/bevry/promise-errback/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/promise-errback">view contributions</a></li></ul>
+<ul><li><a href="https://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/promise-errback/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/promise-errback">view contributions</a></li></ul>
 
 <h3>Sponsors</h3>
 
@@ -129,7 +136,9 @@ No sponsors yet! Will you be the first?
 
 <h3>Contributors</h3>
 
-No contributors yet! Will you be the first?
+These amazing people have contributed code to this project:
+
+<ul><li><a href="https://balupton.com">Benjamin Lupton</a> — <a href="https://github.com/bevry/promise-errback/commits?author=balupton" title="View the GitHub contributions of Benjamin Lupton on repository bevry/promise-errback">view contributions</a></li></ul>
 
 <a href="https://github.com/bevry/promise-errback/blob/master/CONTRIBUTING.md#files">Discover how you can contribute by heading on over to the <code>CONTRIBUTING.md</code> file.</a>
 
@@ -142,7 +151,7 @@ No contributors yet! Will you be the first?
 
 Unless stated otherwise all works are:
 
-<ul><li>Copyright &copy; 2023+ <a href="https://github.com/balupton">Benjamin Lupton</a></li></ul>
+<ul><li>Copyright &copy; 2023+ <a href="https://balupton.com">Benjamin Lupton</a></li></ul>
 
 and licensed under:
 
