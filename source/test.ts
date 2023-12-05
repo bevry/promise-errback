@@ -13,7 +13,7 @@ kava.suite('@bevry/promise-errback', function (suite, test) {
 				equal(err, null, 'rejection was as expected')
 				equal(value, 'first result', 'result was as expected')
 				return 'new result'
-			}
+			},
 		)
 			.then((value) => {
 				equal(value, 'new result', 'new result was as expected')
@@ -32,7 +32,7 @@ kava.suite('@bevry/promise-errback', function (suite, test) {
 				errorEqual(err, 'first rejection', 'rejection was as expected')
 				undef(value, 'result was as expected')
 				return 'new result'
-			}
+			},
 		)
 			.then((value) => {
 				equal(value, 'new result', 'new result was as expected')
@@ -51,7 +51,7 @@ kava.suite('@bevry/promise-errback', function (suite, test) {
 				errorEqual(err, 'first rejection', 'rejection was as expected')
 				undef(value, 'result was as expected')
 				return Promise.reject('second rejection')
-			}
+			},
 		)
 			.then((value) => {
 				done(new Error('should not have succeeded: ' + value))
@@ -66,7 +66,7 @@ kava.suite('@bevry/promise-errback', function (suite, test) {
 			Promise.resolve().then(() => {
 				return 'success'
 			}),
-			done
+			done,
 		)
 	})
 	// obviously can't test rejection to done, as that will cause the test to fail
