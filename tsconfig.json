@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
     "allowJs": true,
+    "downlevelIteration": true,
     "esModuleInterop": true,
     "isolatedModules": true,
     "maxNodeModuleJsDepth": 5,
     "module": "ESNext",
     "moduleResolution": "Node",
-    "skipLibCheck": false,
+    "skipLibCheck": true,
     "strict": true,
     "target": "ES2022"
   },
